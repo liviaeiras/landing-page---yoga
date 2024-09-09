@@ -1,0 +1,106 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #8e8080;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header.hero {
+    background: url('yoga-background.jpg.png.png') no-repeat center center/cover;
+    color: rgb(71, 99, 61);
+    padding: 20px 50px;
+    text-align: center;
+}
+
+header.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header.hero p {
+    font-size: 1.5em;
+}
+
+.btn-primary {
+    background: #6b8e23;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+section.sobre, section.aulas, section.depoimentos, section.instrutores, section.contato {
+    padding: 40px 20px;
+    background: white;
+    margin: 20px 0;
+}
+
+section.sobre h2, section.aulas h2, section.depoimentos h2, section.instrutores h2, section.contato h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.aula, .instrutor {
+    margin-bottom: 20px;
+}
+
+.aula img, .instrutor img {
+    width: 100px;
+    height: auto;
+}
+
+.btn-secondary {
+    background: #f2b5d4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.depoimento {
+    border-left: 4px solid #6b8e23;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #6b8e23;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-icon {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer .social-media {
+    margin: 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
